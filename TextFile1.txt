@@ -1,0 +1,6 @@
+- Install-Package Microsoft.WebSockets
+
+
+https://www.youtube.com/watch?v=lTtSIU9WH_g
+
+- <add name="WebSocketClientHandler" path="*.ashx" verb="*" type="KmnlkRealTimeApi.Context.WebSocketServer" preCondition="integratedMode"  resourceType="Unspecified"/>

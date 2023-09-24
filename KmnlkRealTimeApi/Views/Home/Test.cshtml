@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script>
+        debugger
+        // var url = "ws://127.0.0.1:8081/";
+        var url = "ws://" + window.location.hostname + "/KmnlkRealTimeApi/HttpWebSocketServer.cs";
+
+        var server = new WebSocket(url);
+
+        server.onopen = function () {
+            debugger
+            server.send("xxxx");
+            alert("xxx");
+        }
+        server.onmessage = function (e) {
+            debugger
+            server.send("xxxxaaaaaaa");
+        }
+        server.onclose =function (e) {
+            debugger
+        }
+       // server.send("asdasdasd");
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

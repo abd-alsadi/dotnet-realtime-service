@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest", "MyTest\MyTest.csproj", "{435C3989-95F4-44D2-832F-69FF07BCD6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkRealTimeApi", "KmnlkRealTimeApi\KmnlkRealTimeApi.csproj", "{3E5B57FD-AA65-4DE3-B201-8200D29C4BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkRealTimeSite", "KmnlkRealTimeSite\KmnlkRealTimeSite.csproj", "{C11DD1F5-8ED7-4FAE-B074-191016A7353D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkRealTimeDll", "KmnlkRealTimeDll\KmnlkRealTimeDll.csproj", "{2DE60FAA-680E-4ECB-B09C-12BBE6A390C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkRealTime.Tests", "KmnlkRealTime.Tests\KmnlkRealTime.Tests.csproj", "{588E73C9-7AA1-4FC8-9A82-A5FD61CF6507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{C0E50BC8-08DC-457E-A4F3-59485E777B7B}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkRealTimeEngine", "KmnlkRealTimeEngine\KmnlkRealTimeEngine.csproj", "{7B9B24F6-9147-42F2-8146-85495DFCED25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{05C17E7A-6BCF-4DAC-BD71-8FD31FB56AE8}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\KmnlkCommon.dll = Dlls\KmnlkCommon.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{435C3989-95F4-44D2-832F-69FF07BCD6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435C3989-95F4-44D2-832F-69FF07BCD6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435C3989-95F4-44D2-832F-69FF07BCD6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435C3989-95F4-44D2-832F-69FF07BCD6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5B57FD-AA65-4DE3-B201-8200D29C4BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5B57FD-AA65-4DE3-B201-8200D29C4BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5B57FD-AA65-4DE3-B201-8200D29C4BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5B57FD-AA65-4DE3-B201-8200D29C4BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11DD1F5-8ED7-4FAE-B074-191016A7353D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11DD1F5-8ED7-4FAE-B074-191016A7353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11DD1F5-8ED7-4FAE-B074-191016A7353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11DD1F5-8ED7-4FAE-B074-191016A7353D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE60FAA-680E-4ECB-B09C-12BBE6A390C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE60FAA-680E-4ECB-B09C-12BBE6A390C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE60FAA-680E-4ECB-B09C-12BBE6A390C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE60FAA-680E-4ECB-B09C-12BBE6A390C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588E73C9-7AA1-4FC8-9A82-A5FD61CF6507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588E73C9-7AA1-4FC8-9A82-A5FD61CF6507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588E73C9-7AA1-4FC8-9A82-A5FD61CF6507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588E73C9-7AA1-4FC8-9A82-A5FD61CF6507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9B24F6-9147-42F2-8146-85495DFCED25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9B24F6-9147-42F2-8146-85495DFCED25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9B24F6-9147-42F2-8146-85495DFCED25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9B24F6-9147-42F2-8146-85495DFCED25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
